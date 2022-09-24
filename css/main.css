@@ -9,7 +9,7 @@
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
+  --bs-purple: #cf649a;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
@@ -10171,7 +10171,7 @@ textarea.form-control-lg {
 }
 .container .card {
   width: 20rem;
-  height: 29.4rem;
+  height: 29.5rem;
   padding: 1rem;
   background-color: #000;
 }
@@ -10184,6 +10184,11 @@ textarea.form-control-lg {
 .container .card .card-body p {
   font-size: 1.5rem;
   margin-bottom: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  align-content: space-around;
 }
 .container .card .card-body a {
   font-size: 1.5rem;
