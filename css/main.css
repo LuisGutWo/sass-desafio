@@ -10163,7 +10163,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.flex-container, .container .card .card-body a, .container .card .card-body p, .container {
+.flex-container, .container .card .card-body a, .container .card .card-body p, .container .card, .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10174,7 +10174,7 @@ textarea.form-control-lg {
 }
 .container .card {
   width: 20rem;
-  height: 30rem;
+  height: 31rem;
   padding: 1rem;
   background-color: #000;
 }
